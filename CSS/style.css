@@ -1,0 +1,816 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+span{
+    color:#D67E35;
+}
+
+button:hover{
+    background-color:#904506;
+}
+
+button{
+    transition: background-color 0.3s linear;
+    border:none;
+}
+
+
+.container {
+    margin: 0 165px;
+}
+.header {
+     background-image: url(../IMG/site-background.svg);
+     background-size:cover;
+     height:880px;
+     z-index:2;
+}
+
+.header-menu {
+    display:flex;
+    padding-top:50px;
+    align-items:center;
+    justify-content:space-around
+}
+
+.header-menu-list {
+    display:flex;
+    column-gap: 25px;
+}
+
+.header-menu-item-link {
+    text-decoration:none;
+    text-transform:uppercase;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color:#FFFFFF;
+    transition: color 0.3s linear;
+}
+
+.header-menu-item-link:hover{
+    color:orange;
+}
+
+.shopping-cart{
+    border-right: 1px solid #FFFFFF;
+    padding-right:20px;
+    height:50px;
+    display:flex;
+    align-items:center;
+}
+
+.shopping-cart-link-img:hover{
+    opacity:75%;
+}
+
+.shopping-cart-img{
+    height:16px;
+}
+
+.Call-us-section {
+    display:flex;
+    flex-direction:column;
+}
+
+.phone-number{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color:#FFFFFF;
+
+    text-decoration:none;
+    transition: color 0.3s linear;
+}
+
+.phone-number:hover{
+    color:orange;
+}
+
+.contact-us-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
+}
+
+.Reserve-btn{
+    background-color:#FF7400;
+    padding:15px 20px;
+}
+
+.reserve{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#FFFFFF;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.Header-down{
+    display:flex;
+    position:relative;
+    margin-top:215px;
+    margin-left:50px;
+
+}
+
+.header-down-title-one{
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #D67E35;
+
+}
+
+.header-down-title-two{
+    font-family: 'Tinos', serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 92px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D67E35;
+}
+
+.restaurant-title{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#FFFFFF;
+    margin-top:12px;
+    text-transform:uppercase;
+}
+
+.restaurant-title:before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: white;
+    top: 173px;
+    left: 340px;
+}
+
+.restaurant-title:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: white;
+    top: 173px;
+    left: 77px;
+}
+
+.Menu-btn{
+    background: #FF7400;
+    padding:14px 30px;
+    margin-top:25px;
+    margin-left:169px;
+}
+
+.view-menu{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#FFFFFF;
+}
+
+.Advantages{
+    z-index:1;
+    margin-top:-130px;
+    display:flex;
+    justify-content:center;
+}
+.advantages-list{
+    display:flex;
+    justify-content:center;
+    column-gap:30px;
+    margin-top:30px;
+    
+}
+
+.advantages-list-item{
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    background-color:white;
+    justify-content:center;
+}
+
+.card-img{
+    display:flex;
+    justify-content:center;
+    width:87px;
+    height:87px;
+    margin: 0 auto;
+    margin-top:35px;
+}
+
+.card-title{
+    margin-top:10px;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.card-description{
+    margin-top:25px;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.advantages-list-item{
+    height:330px;
+    width:330px;
+}
+
+
+.Our-history{
+    margin-top:166px;
+}
+
+.left-block{
+    max-width:444px;
+}
+
+.history-title{
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align:center;
+}
+
+.history-desc{
+    margin-top:20px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align:center;
+}
+
+.history-numbers{
+    display:flex;
+    column-gap:40px;
+    margin-top:40px;
+    justify-content:center;
+}
+
+.numbers{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.namings{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.right-block{
+    max-width:556px;
+    
+}
+
+.all-blocks{
+    display:flex;
+    justify-content:space-between;
+}
+
+.Reserve-section{
+    background-image: url(../IMG/reserve-background.svg);
+    margin-top:100px;
+}
+
+.Reserve-table{
+    display:flex;
+    padding:60px 0px;
+    column-gap:300px;
+
+}
+.reserve-table-title{
+    max-width:601px;
+
+    font-family:'Tinos', serif;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+}
+
+.reserve-table-subtitle-text{
+    margin-top:20px;
+    color:white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Reserve-table-btn{
+    display:flex;
+    background-color:#FF7400;
+    margin:auto;
+    padding: 15px 20px;
+}
+
+.reserve-btn{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#FFFFFF;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+
+}
+
+.Our-dishes-gallery{
+    margin-top:132px;
+}
+
+.our-dishes{
+    font-family:'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.pizza-burg-img-text{
+    margin-top:140px;
+    display:flex;
+    justify-content:center;
+}
+
+.burger-img-text{
+    margin-left:30px;
+}
+
+.burger-text{
+    display:flex;
+    padding-bottom:29px;
+    
+}
+
+.burger-img-text ul:last-child{
+    padding-bottom:0px;
+}
+
+.burger-price{
+    font-family:'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    display:flex;
+    align-items:center;
+    margin-left:30px;
+}
+
+.Our-menu-section{
+    background-image:url(../IMG/bar-background.svg);
+    margin-top:150px;
+    height:1036px;
+
+}
+
+.our-menu-section-body{
+    padding-top:100px;
+}
+
+.our-menu-title{
+    font-family:'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.hamburger-card{
+    margin-top:138px;
+    
+}
+
+.hamburger-maxi{
+    text-align:center;
+}
+.hamburger-img-circle-price{
+    position:relative;
+}
+
+.hamburger-img{
+    border-radius:50%;
+}
+
+.circle-price-div{
+    position:absolute;
+    top: 121px;
+    left: 142px;
+}
+.price-circle{
+    top: 32px;
+    left: 29px;
+}
+
+.circle-price{
+    position:absolute;
+    font-family: 'Cookie', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+
+    color:white;
+
+    position:absolute;
+    top: 35px;
+    left: 31px;
+}
+
+.hamburger-text-title{
+    font-family:'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+
+    color:black;
+}
+
+.hamburger-text-desc{
+    max-width:225px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+
+    color:black;
+    margin-top:17px;
+}
+
+.hamburger-card{
+    display:flex;
+    justify-content:space-around;
+}
+
+.hamburger-card-div{
+    height:510px;
+    width:350px;
+    background:white;
+}
+
+.hamburger-maxi{
+    margin-top:80px;
+    display:flex;
+    justify-content:center;
+}
+
+.order-btn{
+    background-color:#D67E34;
+    padding:15px 70px;
+    margin-top:20px;
+    position:center;
+}
+
+.order-btn-link{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+
+.Review-section-div{
+    background-color:#E5E5E5;
+}
+
+.review-section{
+    padding: 105px 0px;
+}
+
+.review-text{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.user-interface{
+    display:flex;
+    flex-direction:column;
+    padding-top:75px;
+    align-items:center;
+}
+
+.user-photo{
+    max-height:100px;
+    max-width:100px;
+    margin-bottom:20px;
+}
+
+.user-status{
+    margin-bottom:10px;
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+}
+
+.user-name{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+}
+
+
+.Our-Chefs{
+    margin-top:100px;   
+}
+
+.our-chefs-title{
+    text-align:center;
+    font-family:'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+}
+
+.chef-photos{
+    margin-top:110px;
+}
+
+.chef-ul{
+    display:flex;
+    justify-content:space-between;
+}
+
+.last-background{
+    margin-top:100px;
+    height:100vh;
+    background-image:url(../IMG/last-background.svg);
+    background-size:cover;
+}
+
+@media (max-width: 868px) {
+        .container {
+            margin:0;
+        }
+
+        .header-menu {
+            padding-top: 90px;
+        }
+
+        .Header-down{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            flex-direction:column;
+        }
+
+        .restaurant-title:before{
+            left: 503px;
+        }
+
+        .restaurant-title:after{
+            left: 253px;
+        }
+
+        .advantages-list-item {
+            width: 267px;
+    }
+
+        .advantages-list {
+            column-gap: 20px;
+    }
+
+        .Our-history {
+            margin-top: 100px;
+        }
+        
+        .all-blocks {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .left-block {
+            margin-bottom: 50px;
+        }
+
+        .Reserve-table {
+            column-gap: 35px;
+            margin-left: 20px;
+        }
+        .Our-dishes-gallery {
+            margin-top: 70px;
+        }
+
+        .pizza-burg-img-text {
+            margin-top: 43px;
+        }
+
+        .burger-img-text {
+            margin-left: 10px;
+        }
+
+        .burger-price {
+            font-size: 24px;
+            margin-left: 10px;
+        }
+
+        .Our-menu-section {
+            margin-top: 50px;
+        }
+
+        .hamburger-card-div {
+            height: 493px;
+            width: 276px;
+        }
+
+        .hamburger-maxi {
+            margin-top: 50px;
+        }
+
+        .Our-Chefs {
+            margin-top: 50px;
+        }
+
+        .chef-photos {
+            margin-top: 50px;
+        }
+
+        .chef-ul {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .chef-li{
+            padding-bottom:10px;
+        }
+
+        .chef-li:last-child{
+            padding-bottom:0;
+        }
+
+        .last-background {
+            margin-top: 50px;
+    }
+}
+
+@media (max-width: 376px) {
+        .header-menu {
+            padding-top:50px;
+        }
+
+        .header-menu-list{
+            display:flex;
+            flex-direction:column;
+        }
+
+        .header-down-title-one{
+            font-size:30px;
+        }
+
+        .header-down-title-two{
+            font-size:50px;
+        }
+
+        .restaurant-title{
+            font-size:14px;
+        }
+
+        .Header-down{
+            margin-left:0;
+            margin-top:100px;
+        }
+
+        .restaurant-title::after{
+            display:none;
+        }
+
+        .restaurant-title::before{
+            display:none;
+        }
+
+        .Menu-btn{
+            margin-left: 79px;
+        }
+
+        .Reserve-btn{
+            display:none;
+        }
+
+        .shopping-cart{
+            display:none;
+        }
+
+        .Call-us-section{
+            display:none;
+        }
+
+        .advantages-list{
+            flex-direction:column;
+        }
+
+        .advantages-list-item{
+            margin-bottom:10px;
+            width:320px;
+        }
+
+        .advantages-list-item:last-child {
+            margin-bottom:0px;
+        }
+
+        .our-history-img{
+            width:360px;
+        }
+
+        .Reserve-table{
+            flex-direction:column;
+            margin-left:0;
+
+        }
+        .reserve-table-title{
+            font-size:30px;
+            text-align:center;
+        }
+
+        .reserve-table-subtitle-text {
+            text-align: center;
+            margin-bottom:15px;
+        }
+
+        .pizza-image{
+            display:none;
+        }
+
+        .burger-price{
+            font-size:19px;
+        }
+
+        .our-menu-title{
+            font-size:45px;
+        }
+
+        .disp {
+            display:none;
+        }
+
+        .last-background {
+            height:70vh;
+        }
+}
